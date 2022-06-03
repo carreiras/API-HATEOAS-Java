@@ -1,9 +1,9 @@
-package com.github.carreiras.sample.hateoas.rest.controller;
+package com.ewecarreira.hateoas.rest.controller;
 
-import com.github.carreiras.sample.hateoas.rest.assemblers.ActorModelAssembler;
-import com.github.carreiras.sample.hateoas.domain.entity.Actor;
-import com.github.carreiras.sample.hateoas.domain.repository.ActorRepository;
-import com.github.carreiras.sample.hateoas.rest.dto.ActorModel;
+import com.ewecarreira.hateoas.rest.assemblers.ActorModelAssembler;
+import com.ewecarreira.hateoas.domain.entity.Actor;
+import com.ewecarreira.hateoas.domain.repository.ActorRepository;
+import com.ewecarreira.hateoas.rest.dto.ActorModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.HttpStatus;

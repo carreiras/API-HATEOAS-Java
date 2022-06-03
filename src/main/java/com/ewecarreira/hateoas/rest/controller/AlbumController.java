@@ -1,9 +1,9 @@
-package com.github.carreiras.sample.hateoas.rest.controller;
+package com.ewecarreira.hateoas.rest.controller;
 
-import com.github.carreiras.sample.hateoas.domain.entity.Album;
-import com.github.carreiras.sample.hateoas.domain.repository.AlbumRepository;
-import com.github.carreiras.sample.hateoas.rest.dto.AlbumModel;
-import com.github.carreiras.sample.hateoas.rest.assemblers.AlbumModelAssembler;
+import com.ewecarreira.hateoas.domain.entity.Album;
+import com.ewecarreira.hateoas.domain.repository.AlbumRepository;
+import com.ewecarreira.hateoas.rest.dto.AlbumModel;
+import com.ewecarreira.hateoas.rest.assemblers.AlbumModelAssembler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.HttpStatus;

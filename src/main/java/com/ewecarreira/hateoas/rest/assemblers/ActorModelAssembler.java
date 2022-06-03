@@ -1,11 +1,11 @@
-package com.github.carreiras.sample.hateoas.rest.assemblers;
+package com.ewecarreira.hateoas.rest.assemblers;
 
-import com.github.carreiras.sample.hateoas.domain.entity.Actor;
-import com.github.carreiras.sample.hateoas.domain.entity.Album;
-import com.github.carreiras.sample.hateoas.rest.controller.ActorController;
-import com.github.carreiras.sample.hateoas.rest.controller.AlbumController;
-import com.github.carreiras.sample.hateoas.rest.dto.ActorModel;
-import com.github.carreiras.sample.hateoas.rest.dto.AlbumModel;
+import com.ewecarreira.hateoas.domain.entity.Actor;
+import com.ewecarreira.hateoas.domain.entity.Album;
+import com.ewecarreira.hateoas.rest.controller.ActorController;
+import com.ewecarreira.hateoas.rest.controller.AlbumController;
+import com.ewecarreira.hateoas.rest.dto.ActorModel;
+import com.ewecarreira.hateoas.rest.dto.AlbumModel;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;

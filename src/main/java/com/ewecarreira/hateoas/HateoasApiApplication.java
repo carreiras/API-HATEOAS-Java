@@ -1,13 +1,13 @@
-package com.github.carreiras.sample.hateoas;
+package com.ewecarreira.hateoas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavaSpringBootSampleHateoasApplication {
+public class HateoasApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaSpringBootSampleHateoasApplication.class, args);
+		SpringApplication.run(HateoasApiApplication.class, args);
 	}
 
 }

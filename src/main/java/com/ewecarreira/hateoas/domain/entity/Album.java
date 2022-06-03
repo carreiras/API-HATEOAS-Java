@@ -1,4 +1,4 @@
-package com.github.carreiras.sample.hateoas.domain.entity;
+package com.ewecarreira.hateoas.domain.entity;
 
 import lombok.*;
 

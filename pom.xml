@@ -10,11 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.carreiras</groupId>
-    <artifactId>java-spring-boot-sample-hateoas</artifactId>
+    <groupId>com.ewecarreira</groupId>
+    <artifactId>hateoas-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>java-spring-boot-sample-hateoas</name>
-
+    <name>hateoas-api</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
