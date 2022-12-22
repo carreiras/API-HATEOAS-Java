@@ -1,9 +1,9 @@
-package com.ewecarreira.hateoas.rest.controller;
+package com.github.carreiras.hateoas.rest.controller;
 
-import com.ewecarreira.hateoas.rest.assemblers.ActorModelAssembler;
-import com.ewecarreira.hateoas.domain.entity.Actor;
-import com.ewecarreira.hateoas.domain.repository.ActorRepository;
-import com.ewecarreira.hateoas.rest.dto.ActorModel;
+import com.github.carreiras.hateoas.rest.assemblers.ActorModelAssembler;
+import com.github.carreiras.hateoas.domain.entity.Actor;
+import com.github.carreiras.hateoas.domain.repository.ActorRepository;
+import com.github.carreiras.hateoas.rest.dto.ActorModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.HttpStatus;
@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/**
+ * Created by Ewerton on 20-10-22
+ */
 @RestController
 @RequestMapping(value = "/api/actors")
 public class ActorController {

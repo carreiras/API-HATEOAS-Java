@@ -1,13 +1,14 @@
-package com.ewecarreira.hateoas.rest.assemblers;
+package com.github.carreiras.hateoas.rest.assemblers;
 
-import com.ewecarreira.hateoas.domain.entity.Actor;
-import com.ewecarreira.hateoas.domain.entity.Album;
-import com.ewecarreira.hateoas.rest.controller.ActorController;
-import com.ewecarreira.hateoas.rest.controller.AlbumController;
-import com.ewecarreira.hateoas.rest.dto.ActorModel;
-import com.ewecarreira.hateoas.rest.dto.AlbumModel;
+import com.github.carreiras.hateoas.domain.entity.Actor;
+import com.github.carreiras.hateoas.domain.entity.Album;
+import com.github.carreiras.hateoas.rest.controller.ActorController;
+import com.github.carreiras.hateoas.rest.controller.AlbumController;
+import com.github.carreiras.hateoas.rest.dto.ActorModel;
+import com.github.carreiras.hateoas.rest.dto.AlbumModel;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
+import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.stereotype.Component;
 
 import java.util.Collections;
@@ -17,6 +18,9 @@ import java.util.stream.Collectors;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
+/**
+ * Created by Ewerton on 20-10-22
+ */
 @Component
 public class AlbumModelAssembler extends RepresentationModelAssemblerSupport<Album, AlbumModel> {
 
@@ -61,7 +65,7 @@ public class AlbumModelAssembler extends RepresentationModelAssemblerSupport<Alb
                         .firstName(actor.getFirstName())
                         .lastName(actor.getLastName())
                         .build()
-                        .add(linkTo(
+                        .add(WebMvcLinkBuilder.linkTo(
                                 methodOn(ActorController.class).getActorById(actor.getId())).withSelfRel()))
                 .collect(Collectors.toList());
     }

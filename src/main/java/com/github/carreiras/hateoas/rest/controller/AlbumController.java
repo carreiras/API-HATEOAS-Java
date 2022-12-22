@@ -1,9 +1,9 @@
-package com.ewecarreira.hateoas.rest.controller;
+package com.github.carreiras.hateoas.rest.controller;
 
-import com.ewecarreira.hateoas.domain.entity.Album;
-import com.ewecarreira.hateoas.domain.repository.AlbumRepository;
-import com.ewecarreira.hateoas.rest.dto.AlbumModel;
-import com.ewecarreira.hateoas.rest.assemblers.AlbumModelAssembler;
+import com.github.carreiras.hateoas.domain.entity.Album;
+import com.github.carreiras.hateoas.domain.repository.AlbumRepository;
+import com.github.carreiras.hateoas.rest.dto.AlbumModel;
+import com.github.carreiras.hateoas.rest.assemblers.AlbumModelAssembler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.HttpStatus;
@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/**
+ * Created by Ewerton on 20-10-22
+ */
 @RestController
 @RequestMapping(value = "/api/albums")
 public class AlbumController {

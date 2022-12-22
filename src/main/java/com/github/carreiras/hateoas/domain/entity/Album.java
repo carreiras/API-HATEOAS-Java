@@ -1,4 +1,4 @@
-package com.ewecarreira.hateoas.domain.entity;
+package com.github.carreiras.hateoas.domain.entity;
 
 import lombok.*;
 
@@ -6,6 +6,9 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Created by Ewerton on 20-10-22
+ */
 @Data
 @Entity
 @Builder
