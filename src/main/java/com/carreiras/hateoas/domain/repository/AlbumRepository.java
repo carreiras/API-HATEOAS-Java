@@ -1,6 +1,6 @@
-package com.github.carreiras.hateoas.domain.repository;
+package com.carreiras.hateoas.domain.repository;
 
-import com.github.carreiras.hateoas.domain.entity.Album;
+import com.carreiras.hateoas.domain.entity.Album;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

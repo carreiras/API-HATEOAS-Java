@@ -1,4 +1,4 @@
-package com.github.carreiras.hateoas.rest.dto;
+package com.carreiras.hateoas.rest.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

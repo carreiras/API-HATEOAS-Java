@@ -1,13 +1,13 @@
-package com.github.carreiras.hateoas;
+package com.carreiras.hateoas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class HateoasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(HateoasApplication.class, args);
 	}
 
 }

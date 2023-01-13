@@ -10,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.ewecarreira</groupId>
+    <groupId>com.carreiras</groupId>
     <artifactId>hateoas-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>hateoas-api</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Microserviço em Java para estudo de HATEOAS</description>
 
     <properties>
         <java.version>11</java.version>

@@ -1,4 +1,4 @@
-# API-HATEOAS-Java
+# HATEOAS
 
 ![Badge](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
@@ -6,43 +6,28 @@
 
 Exemplo de microserviço para estudo de uso de HATEOAS.
 
-### Features
-
-- [x] GetAllActors
-- [x] GetActorsById
-- [x] GetAllAlbums
-- [x] GetAlbumsById
-
-### Pré-requisitos
-
-- Git 
-- Java 11+ 
-- IntelliJ IDEA Community 
-- Insomnia (ou a ferramenta cliente API REST de sua preferência).
-
-### Tecnologias utilizadas
-
-- Java 11 ou superior
-- Spring Boot
-- JPA
-- HATEOAS
-- H2
-- Maven
-- Lombok
-
-## Rodando o Microserviço
-
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/carreiras/API-HATEOAS-Java.git>
+$ git clone <https://github.com/carreiras/hateoas.git>
 
 # Abra ou importe o projeto no Intellij IDEA (ou uma IDE de sua preferência)
-# Execute Application.java
+# Execute HateoasApplication.java
 O servidor iniciará na porta:8080
 
 # Utilize o insomnia e importe o arquivo requestCollection.json.
 ```
+## Tecnologias utilizadas
 
+- Java 11+
+- Spring Boot
+- Maven
+
+## Dependências
+
+- Spring JPA
+- H2
+- Lombok
+- Hateoas
 
 ## Autor
 
